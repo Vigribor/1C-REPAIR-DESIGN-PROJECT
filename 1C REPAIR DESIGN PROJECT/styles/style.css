@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&family=Open+Sans&family=Yeseva+One&display=swap');
+@media screen and (min-width: 768px) and (max-width: 1903px){     }
 body {
     max-width: 1920px;
     position: flex;
@@ -8,62 +9,167 @@ body {
     list-style: none;
 }
 header {
-    background: #131313;
-    height: 83px;
-    margin: 0;
     position: flex;
+    width: 1903px;
+    height: 83px;
+    background: #131313;
 }
 * {
     margin: 0;
     padding: 0;
 }    
-.button_1 {
-    background: #E3B873;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-    border-radius: 2px;
-    width: 161px;
-    height: 37px;
-    margin-top: -24px;
-}
-.button_item_1 {
-    padding-right: 250px;
-}
-.logo {
+.logotype {
+    position: absolute;
+    width: 239px;
+    height: 13px;
+    text-decoration: none;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-left: 125px;
 }
-.logo_item {
-    padding-left: 250px;
-    padding-right: 95px;
-    margin: 0px;
-    
-}
-.phone {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    text-decoration-line: underline;
+.logotype:hover {
+    text-decoration: underline;
     color: #E3B873;
 }
-.phone_item {
-    padding-left: 67px;
-}
-.header_list {
-    display: flex;
-    gap: 47px;
+.home {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    padding-top: 37px;
-    margin: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 488px;
+}
+.home:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.projects {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 604px;
+}
+.projects:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.measurement {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 744px;
+}
+.measurement:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.team {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 931px;
+}
+.team:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.rewiews {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 1040px;
+}
+.rewiews:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.contacts {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 1173px;
+}
+.contacts:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.phone_number {
+    position: absolute;
+    width: 168px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 1351px;
+}
+.phone_number:hover {
+    text-decoration: underline;
+    color: #E3B873;
+}
+.Request {
+    position: absolute;
+    background: #E3B873;
+    border-radius: 2px;
+    width: 214px;
+    height: 49px;
+    margin-top: 17px;
+    margin-left: 1579px;
 }
 .section_1 {
     position: flex;
@@ -1750,52 +1856,159 @@ footer {
     margin: 0;
     position: flex;
 }
-.button_1 {
-    background: #E3B873;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-    border-radius: 2px;
-    width: 161px;
-    height: 37px;
-    margin-top: -24px;
-}
-.button_item_1 {
-    padding-right: 250px;
-}
-.logo {
+.logotype_1 {
+    position: absolute;
+    width: 239px;
+    height: 13px;
+    text-decoration: none;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 79px;
+    margin-left: 125px;
 }
-.logo_item {
-    padding-left: 250px;
-    padding-right: 95px;
-    margin: 0px;
-    
-}
-.phone {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    text-decoration-line: underline;
+.logotype_1:hover {
+    text-decoration: underline;
     color: #E3B873;
 }
-.phone_item {
-    padding-left: 67px;
-}
-.footer_list {
-    display: flex;
-    gap: 47px;
+.home_1 {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    padding-top: 90px;
-    margin: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 79px;
+    margin-left: 488px;
+}
+.home_1:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.projects_1 {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 79px;
+    margin-left: 604px;
+}
+.projects_1:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.measurement_1 {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 79px;
+    margin-left: 744px;
+}
+.measurement_1:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.team_1 {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 79px;
+    margin-left: 931px;
+}
+.team_1:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.rewiews_1 {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 79px;
+    margin-left: 1040px;
+}
+.rewiews_1:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.contacts_1 {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 79px;
+    margin-left: 1173px;
+}
+.contacts_1:hover {
+        text-decoration: underline;
+        color: #E3B873;
+}
+.phone_number_1 {
+    position: absolute;
+    width: 168px;
+    height: 13px;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin-top: 79px;
+    margin-left: 1351px;
+}
+.phone_number_1:hover {
+    text-decoration: underline;
+    color: #E3B873;
+}
+.Request_1 {
+    position: absolute;
+    background: #E3B873;
+    border-radius: 2px;
+    width: 214px;
+    height: 49px;
+    margin-top: 64px;
+    margin-left: 1579px;
+}
+.footer_list {
     list-style: none;
 }
